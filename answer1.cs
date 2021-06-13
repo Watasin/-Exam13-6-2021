@@ -7,6 +7,7 @@ namespace Exam
         static void Main(string[] args)
         {
             int i, j;
+            
             int[,] num = new int[3, 3];
             num[0, 0] = int.Parse(Console.ReadLine());
             num[0, 1] = int.Parse(Console.ReadLine());
